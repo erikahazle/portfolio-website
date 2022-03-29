@@ -1,9 +1,9 @@
-import type { NextPage } from 'next'
-import { NavBar } from '../components/NavBar'
-import { HeroSection } from '../containers/Home/Sections/Hero'
-import { USPSection } from '../containers/Home/Sections/USP'
+import { NavBar } from '../../components/NavBar'
 
-const Home: NextPage = () => {
+import { HeroSection } from './Sections/Hero';
+import { USPSection } from './Sections/USP';
+
+export const Home = () => {
   return (
     <div>
       <div className='bg-amber-50 relative'>
@@ -15,7 +15,6 @@ const Home: NextPage = () => {
       </div>
       <USPSection />
     </div>
+    
   )
 }
-
-export default Home
