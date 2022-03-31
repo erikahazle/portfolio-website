@@ -2,7 +2,7 @@ export const RecommendationSection = () => (
   <div className="bg-pinklady">
     <div className='max-w-screen-lg mx-auto py-24'>
       <section className="text-gray-600 body-font">
-        <div className="flex flex-col justify-center text-center max-w-3xl m-auto">
+        <div className="flex flex-col justify-center text-center max-w-3xl m-auto px-4">
           <p className="mb-8 leading-relaxed font-montserrat">
             I’ve been really impressed in my time working with Erika in her role as one of the leading developers in the Eurosport team.
           </p>
