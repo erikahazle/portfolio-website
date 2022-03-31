@@ -42,5 +42,4 @@ export const ProblemStatementSection = () => (
     </section>
   </div>
   </div>
-  
 );
