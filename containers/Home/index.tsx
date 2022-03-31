@@ -2,6 +2,7 @@ import { NavBar } from '../../components/NavBar'
 
 import { HeroSection } from './Sections/Hero';
 import { USPSection } from './Sections/USP';
+import { ProblemStatementSection } from './Sections/ProblemStatement';
 
 export const Home = () => {
   return (
@@ -14,7 +15,7 @@ export const Home = () => {
         <HeroSection />
       </div>
       <USPSection />
+      <ProblemStatementSection />
     </div>
-    
   )
 }
