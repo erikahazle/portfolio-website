@@ -25,6 +25,7 @@ module.exports = {
         },
         givry: '#F8CDBA',
         blossom: '#D6ABC4',
+        pinklady: '#FFF3DA',
       }
     },
   },

@@ -4,6 +4,7 @@ import { HeroSection } from './Sections/Hero';
 import { USPSection } from './Sections/USP';
 import { ProblemStatementSection } from './Sections/ProblemStatement';
 import { HelloSection } from './Sections/Hello';
+import { RecommendationSection } from './Sections/Recommendation';
 
 export const Home = () => {
   return (
@@ -18,6 +19,7 @@ export const Home = () => {
       <USPSection />
       <ProblemStatementSection />
       <HelloSection />
+      <RecommendationSection />
     </div>
   )
 }
