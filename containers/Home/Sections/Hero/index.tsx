@@ -1,7 +1,7 @@
 export const HeroSection = () => (
   <div className='max-w-screen-lg mx-auto pt-16'>
     <section className="text-gray-600 body-font">
-      <div className="container mx-auto flex md:py-24 sm:py-16 md:flex-row flex-col items-center">
+      <div className="container mx-auto flex md:py-24 sm:py-16 px-4 md:flex-row flex-col items-center">
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 z-10 md:pr-8">
           <img className="object-cover object-center" alt="hero" src="/images/hero.png" />
         </div>
