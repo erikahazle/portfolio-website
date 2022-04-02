@@ -24,12 +24,15 @@ export const ProcessSection = () => (
         <div className="flex flex-col flex-start">
           {processSteps.map((step, index) => (
             <div key={step.title} className="max-w-lg flex flex-row items-center pb-12">
-              <div>
+              <div className="relative z-10">
                 <div className="bg-blossom h-14 md:h-24 w-14 md:w-24 mr-4 md:mr-12 flex-grow rounded-full flex justify-center items-center">
                   <span className="md:text-5xl text-3xl text-gray-900 font-montserrat font-bold">
                     {index + 1}.
                   </span>
                 </div>
+                {index !== processSteps.length - 1 && (
+                  <div className="absolute invisible md:visible top-24 bottom-0 left-12 h-4/5 w-0.5 bg-blossom"></div>
+                )} 
               </div>
 
               <div className="max-w-max">
