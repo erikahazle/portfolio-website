@@ -5,6 +5,7 @@ import { USPSection } from './Sections/USP';
 import { ProblemStatementSection } from './Sections/ProblemStatement';
 import { HelloSection } from './Sections/Hello';
 import { RecommendationSection } from './Sections/Recommendation';
+import { ProcessSection } from './Sections/Process';
 
 export const Home = () => {
   return (
@@ -20,6 +21,7 @@ export const Home = () => {
       <ProblemStatementSection />
       <HelloSection />
       <RecommendationSection />
+      <ProcessSection />
     </div>
   )
 }

@@ -1,5 +1,5 @@
 export const HelloSection = () => (
-  <div className="relative z-10">
+  <div className="relative z-10 bg-amber-50 ">
     <div className='absolute top-0 right-0 w-3/4 h-full invisible md:visible bg-givry -z-10' />
     <div className='max-w-screen-lg mx-auto py-16'>
       <section className="text-gray-600 body-font">

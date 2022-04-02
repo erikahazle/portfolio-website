@@ -23,7 +23,7 @@ export const USPSection = () => (
         {usps.map((usp) => (
           <div key={usp.title} className={`h-auto lg:h-96 w-full ${usp.background} py-16 px-8`}>
             <div className="relative z-10 ">
-              <div className="absolute top-4 h-4 w-40 bg-white -z-10" />
+              <div className="absolute top-4 h-4 w-40 bg-amber-50 -z-10" />
               <h3 className="text-2xl mb-8 text-gray-900 font-montserrat font-bold">
                 {usp.title}
               </h3>
