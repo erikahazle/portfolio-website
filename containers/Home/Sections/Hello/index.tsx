@@ -1,3 +1,5 @@
+import { SocialMediaLinks } from "../../../../components/SocialMediaLinks";
+
 export const HelloSection = () => (
   <div className="relative z-10 bg-amber-50 ">
     <div className='absolute top-0 right-0 w-3/4 h-full invisible md:visible bg-givry -z-10' />
@@ -14,6 +16,10 @@ export const HelloSection = () => (
             <p className="mb-8 leading-relaxed font-montserrat">
               I am a full stack JavaScript developer with a passion for creating user-centric tech products. For more than six years, I have helped companies both big and small to bring new products and features into the hands of their users.
             </p>
+
+            <div>
+              <SocialMediaLinks />
+            </div>
           </div>
         </div>
       </section>
