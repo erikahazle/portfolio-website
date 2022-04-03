@@ -8,11 +8,11 @@ const socialMediaLinks = [
 ]
 
 export const SocialMediaLinks = () => (
-  <>
+  <div>
     {socialMediaLinks.map((socialMediaLink) => (
       <a
         key={socialMediaLink.link} 
-        className="mr-4 text-2xl"
+        className="pr-4 text-2xl"
         href={socialMediaLink.link}
         rel="noreferrer" 
         target="_blank"
@@ -20,5 +20,5 @@ export const SocialMediaLinks = () => (
         <FontAwesomeIcon icon={socialMediaLink.icon} />
       </a>
     ))}
-  </>
+  </div>
 );
