@@ -11,7 +11,7 @@ const usps = [
   },
   {
     title: 'Experience',
-    description: 'I have helped define and develop applications and features for global corporates as well as early-stage startusp and industries ranging from social media management to sports TV to consumer analytics.',
+    description: 'I have helped define and develop applications and features for global corporates as well as early-stage startups and industries ranging from social media management to sports TV to consumer analytics.',
     background: 'bg-amber-400',
   },
 ]
