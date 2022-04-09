@@ -11,10 +11,10 @@ export const ProblemStatementSection = () => (
               Let’s be honest - creating a successful tech product that people love is hard. You have to juggle ever-changing stakeholder expectations, user needs with sometimes strict deadlines and tight budgets on top of it all.
             </p>
             <p className="mb-8 leading-relaxed font-montserrat">
-              What tech solution will work for your product shouldn’t be yet another thing for you to worry about.
+              Choosing which tech solution will work for your product shouldn’t be yet another roadblocker to your success.
             </p>
             <p className="mb-8 leading-relaxed font-montserrat">
-              I’m here to help you navigate through the murky waters of technology, so you can focus on realising your idea.
+              I’m here to help you navigate through the murky waters of technology, so you can focus on realising your business idea.
             </p>
             <div className="flex justify-center">
               <a

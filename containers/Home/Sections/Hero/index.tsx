@@ -11,7 +11,7 @@ export const HeroSection = () => (
             <br className="hidden lg:inline-block  font-bold" /> into a product people love
           </h1>
           <p className="mb-8 leading-relaxed font-montserrat">
-            Technology should work for you. I’m here to build your mobile or web app,
+            Technology should work for you. I’m here to help you build your mobile or web app,
             so you can focus on what really matters - growing your business.
           </p>
           <div className="flex justify-center">

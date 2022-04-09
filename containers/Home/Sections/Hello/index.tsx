@@ -14,7 +14,7 @@ export const HelloSection = () => (
               Hi, I’m Erika. Nice to meet you!
             </h1> 
             <p className="mb-8 leading-relaxed font-montserrat">
-              I am a full stack JavaScript developer with a passion for creating user-centric tech products. For more than six years, I have helped companies both big and small to bring new products and features into the hands of their users.
+              I am a full stack developer with a passion for creating user-centric tech products. For nearly seven years, I have helped companies both big and small to bring new products and features into the hands of their users.
             </p>
 
             <div>

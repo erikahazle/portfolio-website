@@ -1,7 +1,7 @@
 const usps = [
   {
     title: 'Solution',
-    description: 'Development work can sometimes feel like a mystery, so I work closely with your product and design teams to help them explore solutions and define a product roadmap that meets your goals',
+    description: 'Development work can sometimes feel like a mystery, so I work closely with you or your product and design teams to help them explore solutions and define a product roadmap that is both feasible and meets your goals',
     background: 'bg-givry',
   },
   {

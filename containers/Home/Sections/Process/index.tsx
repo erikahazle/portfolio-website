@@ -1,15 +1,15 @@
 const processSteps = [
   {
     title: 'Let’s chat',
-    description: 'It all starts with a small first step - getting in touch',
+    description: 'It all starts with a small first step - getting in touch. I would love to hear about your idea or project! Let me know if you are looking to hire or collaborate on it.',
   },
   {
     title: 'Prep and planning',
-    description: 'Every project has its own needs. I will work with you to understand your unique requirements and expectations before we agree on a plan of action',
+    description: 'Every product has its own needs. I will work with you to understand your idea, unique requirements and expectations before we agree on a plan of action',
   },
   {
     title: 'Let’s get it done',
-    description: 'I will work alongside your existing team or bring together a group of trusted freelancers to realise your idea on budget and on time',
+    description: 'I will work alongside you, your existing team or bring together a group of trusted freelancers to realise your idea on budget and on time',
   },
 ]
 
@@ -31,12 +31,12 @@ export const ProcessSection = () => (
                   </span>
                 </div>
                 {index !== processSteps.length - 1 && (
-                  <div className="absolute invisible md:visible top-24 bottom-0 left-12 h-4/5 w-0.5 bg-blossom"></div>
+                  <div className="absolute invisible md:visible top-24 bottom-0 left-12 h-full w-0.5 bg-blossom"></div>
                 )} 
               </div>
 
               <div className="max-w-max">
-                <h3 className="mb-4 title-font text-gray-900 font-montserrat font-bold">{step.title}</h3>
+                <h3 className="mb-4 title-font font-montserrat font-bold">{step.title}</h3>
                 <p className="max-w-max">{step.description}</p>
               </div>
             </div>
