@@ -12,7 +12,7 @@ export const HeroSection = () => (
           </h1>
           <p className="mb-8 leading-relaxed font-montserrat">
             Technology should work for you. I’m here to help you build your mobile or web app,
-            so you can focus on what really matters - growing your business.
+            so you can focus on what really matters, growing your business.
           </p>
           <div className="flex justify-center">
             <a

@@ -8,7 +8,7 @@ export const ProblemStatementSection = () => (
               Technology should work for you
             </h1>
             <p className="mb-8 leading-relaxed font-montserrat">
-              Let’s be honest - creating a successful tech product that people love is hard. You have to juggle ever-changing stakeholder expectations, user needs with sometimes strict deadlines and tight budgets on top of it all.
+              Let’s be honest, creating a successful tech product that people love is hard. You have to juggle ever-changing stakeholder expectations, user needs with sometimes strict deadlines and tight budgets on top of it all.
             </p>
             <p className="mb-8 leading-relaxed font-montserrat">
               Choosing which tech solution will work for your product shouldn’t be yet another roadblocker to your success.
