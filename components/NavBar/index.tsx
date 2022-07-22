@@ -22,7 +22,7 @@ export const NavBar = () => {
             <div className="-mr-2 -my-2 md:hidden">
               <button
                 type="button"
-                className="bg-coral rounded-md p-2 inline-flex items-center justify-center text-gray-500 hover:bg-givry focus:outline-none focus:ring-2 focus:ring-inset focus:givry"
+                className="bg-coral p-2 inline-flex items-center justify-center text-gray-500 hover:bg-givry focus:outline-none focus:ring-2 focus:ring-inset focus:givry"
                 onClick={() => setOpen(!open)}
               >
                 <span className="sr-only">Open menu</span>
@@ -70,7 +70,7 @@ export const NavBar = () => {
                 <div className="-mr-2">
                   <button
                     type="button"
-                    className="bg-pinkladt rounded-md p-2 inline-flex items-center justify-center text-gray-500 hover:bg-givry focus:outline-none focus:ring-2 focus:ring-inset focus:ring-givry"
+                    className="bg-pinkladt p-2 inline-flex items-center justify-center text-gray-500 hover:bg-givry focus:outline-none focus:ring-2 focus:ring-inset focus:ring-givry"
                     onClick={() => setOpen(!open)}
                   >
                     <span className="sr-only">Close menu</span>
