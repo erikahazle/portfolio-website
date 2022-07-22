@@ -1,5 +1,9 @@
 import { useState } from "react";
 
+// @TODO :: 
+// 1. extract desktop/mobile links into a reusable component
+// 2. pass down links as props to make this reusable and extensible for when the link list grows
+
 export const NavBar = () => {
   const [open, setOpen] = useState(false);
 

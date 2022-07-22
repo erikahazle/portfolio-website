@@ -36,3 +36,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## Future development
 
 - NavBar: to finish the navigation bar, check this code example: https://codepen.io/hulyak/pen/yLbwXvB
+
+## TODO
+
+1. Add a linter for tailwind - the lists of classes are huge on some elements
