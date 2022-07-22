@@ -1,6 +1,9 @@
 import { SocialMediaLinks } from "../../../../components/SocialMediaLinks";
 
-export const HelloSection = () => (
+export const HelloSection = () => {
+  const blah = 'hell';
+  
+  return (
   <div className="relative z-10 bg-amber-50 ">
     <div className='absolute top-0 right-0 w-3/4 h-full invisible md:visible bg-givry -z-10' />
     <div className='max-w-screen-lg mx-auto py-16'>
@@ -25,4 +28,4 @@ export const HelloSection = () => (
       </section>
     </div>
   </div>
-);
+)};
