@@ -40,3 +40,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## TODO
 
 1. Add a linter for tailwind - the lists of classes are huge on some elements
+1. Navbar component - extract desktop/mobile links into a reusable component
+1. Navbar component - pass down links as props to make this reusable and extensible for when the link list grows
+1. Navbar component - make current page links bolder
+1. Look into Next.js images

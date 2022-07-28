@@ -1,8 +1,5 @@
 import { useState } from "react";
-
-// @TODO :: 
-// 1. extract desktop/mobile links into a reusable component
-// 2. pass down links as props to make this reusable and extensible for when the link list grows
+import Link from "next/link";
 
 export const NavBar = () => {
   const [open, setOpen] = useState(false);
@@ -13,11 +10,11 @@ export const NavBar = () => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
-              <a href="#">
-                <span className="title-font tracking-tight sm:text-3xl text-2xl mb-4 pb-8 text-gray-900 font-montserrat font-bold uppercase">
+              <Link href="/" passHref>
+                <span className="title-font tracking-wider sm:text-3xl text-2xl mb-4 pb-8 text-gray-900 font-montserrat font-bold uppercase">
                   Jonika
                 </span> 
-              </a>
+              </Link>
             </div>
             <div className="-mr-2 -my-2 md:hidden">
               <button
