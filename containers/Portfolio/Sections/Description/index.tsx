@@ -11,8 +11,8 @@ export const DescriptionSection = () => (
               Portfolio
             </h1> 
             <p className="mb-8 leading-relaxed font-montserrat">
-              I wouldn’t be a developer if I didn’t enjoy coding not just
-              during my work day but also in my spare time.
+              I wouldn’t be a developer if I didn’t enjoy coding, not just
+              during my work day, but also in my spare time.
               I love working with people passionate about what they do.
               Below, you will find my collaborations and personal projects.
             </p>
