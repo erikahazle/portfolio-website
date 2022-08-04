@@ -14,7 +14,7 @@ export const DescriptionSection = () => (
               I wouldn’t be a developer if I didn’t enjoy coding not just
               during my work day but also in my spare time.
               I love working with people passionate about what they do.
-              Here, you will find my collaborations and personal projects.
+              Below, you will find my collaborations and personal projects.
             </p>
             <p className="mb-8 leading-relaxed font-montserrat">
               For my full professional work experience, please check out my <a className="underline" href="https://www.linkedin.com/in/erikajonikaite/">

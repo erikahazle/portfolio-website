@@ -1,5 +1,5 @@
 export const FlexiFITTSection = () => (
-  <div className="relative z-10 bg-amber-50">
+  <div className="relative z-10 mb-8">
     <div className='absolute top-0 left-0 w-full md:w-1/2 h-full bg-givry -z-10' />
     <div className='max-w-screen-lg mx-auto py-16'>
       <section className="text-gray-600 body-font">
@@ -31,7 +31,7 @@ export const FlexiFITTSection = () => (
 
           <div className="z-10 m-auto flex justify-center">
             <img
-              className="object-cover object-center max-h-96 p-8 pb-16 md:pb-4"
+              className="object-cover object-center max-h-96 p-8 pb-16 md:pb-4 ml-6"
               alt="FlexiFITT app screenshots"
               src="/images/flexifitt-2.png"
             />

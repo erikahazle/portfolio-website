@@ -12,7 +12,7 @@ export const SocialMediaLinks = () => (
     {socialMediaLinks.map((socialMediaLink) => (
       <a
         key={socialMediaLink.link} 
-        className="pr-4 text-2xl"
+        className="pr-4 text-2xl text-gray-900"
         href={socialMediaLink.link}
         rel="noreferrer" 
         target="_blank"
