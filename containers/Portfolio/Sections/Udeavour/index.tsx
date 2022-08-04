@@ -19,7 +19,7 @@ export const UdeavourSection = () => (
               Udeavour GCSE Chemistry app was a collaboration between myself and another developer, Linas. It was created as an exam revision aid with hundreds of flashcards to help students remember key facts in an easy and fun way. We made it available on iOS (swift) and Android (react native).
             </p>
             <p className="mb-8 leading-relaxed font-montserrat">
-              For this project, I had to stretch my design and marketing muscles again as well as contribute to be codebase.
+              For this project, I had to stretch my design and marketing muscles again as well as contribute to the codebase.
             </p>
             <p className="mb-8 leading-relaxed font-montserrat font-bold">
               Technologies used:
