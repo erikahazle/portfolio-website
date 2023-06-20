@@ -2,9 +2,9 @@ import { faInstagram, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const socialMediaLinks = [
-  { icon: faInstagram, link: 'https://www.instagram.com/jonika.io' },
-  { icon: faTwitter, link: 'https://twitter.com/jonikaio' },
-  { icon: faLinkedin, link: 'https://www.linkedin.com/in/erikajonikaite/' },
+  { icon: faInstagram, link: 'https://www.instagram.com/erikahazlewood' },
+  { icon: faTwitter, link: 'https://twitter.com/erikahazle' },
+  { icon: faLinkedin, link: 'https://www.linkedin.com/in/erikahazlewood/' },
 ]
 
 export const SocialMediaLinks = () => (

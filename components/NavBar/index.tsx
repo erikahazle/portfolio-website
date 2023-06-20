@@ -8,14 +8,14 @@ export const NavBar = () => {
     <>
       <div className="relative">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
-            <div className="flex justify-start lg:w-0 lg:flex-1">
+          <div className="flex justify-end items-center py-6 md:justify-start md:space-x-10">
+            {/* <div className="flex justify-start lg:w-0 lg:flex-1">
               <Link href="/" passHref>
-                <span className="title-font tracking-wider sm:text-3xl text-2xl mb-4 pb-8 text-gray-900 font-montserrat font-bold uppercase cursor-pointer">
-                  Jonika
+                <span className="title-font tracking-wider sm:text-xl mb-4 pb-8 text-gray-900 font-montserrat font-bold uppercase cursor-pointer">
+                  Erika Hazlewood
                 </span> 
               </Link>
-            </div>
+            </div> */}
             <div className="-mr-2 -my-2 md:hidden">
               <button
                 type="button"
@@ -52,7 +52,12 @@ export const NavBar = () => {
                 </svg>
               </button>
             </div>
-            <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
+            <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0 space-x-4">
+              <Link href="/" passHref>
+                <span className="title-font tracking-tight sm:text-l text-m mb-4 pb-8 text-gray-900 font-montserrat font-light hover:font-bold uppercase cursor-pointer">
+                  Home
+                </span> 
+              </Link>
               <Link href="/portfolio" passHref>
                 <span className="title-font tracking-tight sm:text-l text-m mb-4 pb-8 text-gray-900 font-montserrat font-light hover:font-bold uppercase cursor-pointer">
                   Portfolio
@@ -72,11 +77,11 @@ export const NavBar = () => {
             <div className="pt-5 pb-6 px-5">
               <div className="flex justify-between">
                 <div>
-                  <Link href="/" passHref>
+                  {/* <Link href="/" passHref>
                     <span className="title-font tracking-tight text-xl mb-4 pb-8 text-gray-900 font-montserrat font-bold uppercase cursor-pointer">
-                      Jonika
+                      Erika Hazlewood
                     </span>
-                  </Link> 
+                  </Link>  */}
                 </div>
                 <div className="-mr-2">
                   <button
@@ -105,6 +110,14 @@ export const NavBar = () => {
               </div>
               <div className="mt-6">
                 <nav className="grid gap-y-8">
+                  <Link
+                    href="/"
+                    passHref
+                  >
+                    <span className="-m-3 p-3 flex items-center hover:bg-givry text-base font-montserrat font-light text-gray-900 uppercase cursor-pointer">
+                      Home
+                    </span>
+                  </Link>
                   <Link
                     href="/portfolio"
                     passHref

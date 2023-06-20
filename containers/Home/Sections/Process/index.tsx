@@ -18,7 +18,7 @@ export const ProcessSection = () => (
     <section>
       <div className="container py-28 px-4 mx-auto flex flex-col items-center">
         <h1 className="title-font sm:text-5xl text-3xl mb-12 pb-12 text-gray-900 font-montserrat font-bold text-center">
-          How the magic happens:
+          🪄 How the magic happens:
         </h1>
 
         <div className="flex flex-col flex-start">

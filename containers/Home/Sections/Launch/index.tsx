@@ -19,7 +19,7 @@ export const LaunchSection = () => (
                     hover:bg-tapestry-50
                       text-sm font-bold uppercase font-montserrat
                     "
-                href="mailto:hello@jonika.io"
+                href="mailto:hello@erikahazlewood.com"
               >
                 Get in touch
               </a>

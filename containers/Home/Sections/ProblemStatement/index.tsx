@@ -5,7 +5,7 @@ export const ProblemStatementSection = () => (
         <div className="container mx-auto flex py-8 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 px-5 pr-5 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 pb-8   text-gray-900 font-montserrat font-bold">
-              Technology should work for you
+              👩🏼‍💻 Technology should work for you
             </h1>
             <p className="mb-8 leading-relaxed font-montserrat">
               Let’s be honest, creating a successful tech product that people love is hard. You have to juggle ever-changing stakeholder expectations, user needs with sometimes strict deadlines and tight budgets on top of it all.
@@ -28,7 +28,7 @@ export const ProblemStatementSection = () => (
                     hover:bg-tapestry-50
                       text-sm font-bold uppercase font-montserrat
                     "
-                href="mailto:hello@jonika.io"
+                href="mailto:hello@erikahazlewood.com"
               >
                 Get in touch
               </a>

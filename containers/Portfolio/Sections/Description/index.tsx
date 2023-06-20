@@ -17,7 +17,7 @@ export const DescriptionSection = () => (
               Below, you will find my collaborations and personal projects.
             </p>
             <p className="mb-8 leading-relaxed font-montserrat">
-              For my full professional work experience, please check out my <a className="underline" href="https://www.linkedin.com/in/erikajonikaite/">
+              For my full professional work experience, please check out my <a className="underline" href="https://www.linkedin.com/in/erikahazlewood/">
               LinkedIn profile
               </a>.
             </p>
